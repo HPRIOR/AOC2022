@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="IO.fs" />
+        <Compile Include="One.fs" />
+        <Compile Include="Two.fs" />
+        <Compile Include="Three.fs" />
+        <Compile Include="Program.fs" />
+        <Content Include="inputs\one.txt" />
+    </ItemGroup>
+
+</Project>
